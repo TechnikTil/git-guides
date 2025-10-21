@@ -41,12 +41,12 @@ To continue this guide, you need:
 2. Run the commands below:
 	```
 	git config --global gpg.format ssh
-	git config --global user.signingkey [KEY_PATH].pub
+	git config --global user.signingkey [KEY_PATH]
 	git config --global commit.gpgsign true
 	```
-	- Replace `[KEY_PATH]` with the Key Path. The `.pub` should be kept, otherwise we'll set private key, which is something we don't want.
+	- Replace `[KEY_PATH]` with the Key Path.
 3. Run `cat [KEY_PATH].pub`
-	- Replace `[KEY_PATH]` with the Key Path. Remember what I said about `.pub` from earlier!
+	- Replace `[KEY_PATH]` with the Key Path. The `.pub` should be kept, otherwise we'll get the private key, which is something we don't want.
 	- Copy the contents returned from this command into your clipboard, since we'll use it in the next step.
 ## Section 3: Setting up the SSH key on GitHub.
 1. Open the [SSH and GPG keys](https://github.com/settings/keys) section inside your GitHub settings.
