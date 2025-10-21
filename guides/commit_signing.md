@@ -1,5 +1,5 @@
 # Introduction
-![A Signed (aka. Verified) Commit](images/signing/signed_commit.png)
+![A Signed (aka. Verified) Commit](../images/signing/signed_commit.png)
 
 Have you ever seen a commit with this "verified" badge, and asked yourself how to do that with your commits? Well, look no further!
 
