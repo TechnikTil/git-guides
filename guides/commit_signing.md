@@ -26,6 +26,7 @@ To continue this guide, you need:
 1. Start the SSH agent.
 	- If you are on Windows, open PowerShell as an administrator and enter the commands below:
 		```
+		Get-Service -Name ssh-agent | Set-Service -StartupType Automatic
 		Start-Service ssh-agent
 		ssh-add [KEY_PATH]
 		```
